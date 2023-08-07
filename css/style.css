@@ -1,0 +1,181 @@
+* {
+    font-family:'Kanit'
+
+}
+
+/* head */
+
+nav div a img {
+    object-fit: cover;
+    width: 100px;
+    height: 50px;
+}
+
+nav div h5 {
+    color: #ffb943;
+}
+
+
+.bg-custom {
+    background-color: #333333;
+}
+
+.nav-link {
+    color: #ffb943; 
+}
+
+.nav-link:hover {
+    color: #83755c; 
+}
+
+/* main */
+
+main {
+    margin-top: 100px;
+
+}
+
+main div {
+    align-items: center;
+}
+
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero div {
+    padding: 5px;
+    text-align: center;
+}
+
+.hero div img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    align-items: center;
+}
+
+.btn {
+    background-color: #ffb943;
+    border-color: #222222;
+}
+
+.btn:hover {
+    background-color: #ffb943;
+    color: #222222;
+    border-color: #222222;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+.centrar {
+    text-align: center;
+}
+
+/* cards */
+
+.cards-container {
+    padding: 50px;
+    text-align: left;
+}
+
+.card-text {
+    width: 250px;
+    height: 150px;
+}
+
+.card {
+    border: 0;
+    align-items: center;
+}
+
+.card-body {
+    padding-left: 0;
+
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card_img {
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+    padding: 4px;
+    background-color: #ffb943;
+}
+
+.img-cover {
+    object-fit: cover;
+} 
+
+/* tienda */
+
+main h1 {
+    text-align: center;
+}
+
+.tienda {
+    padding: 20px;
+    gap: 50px;
+}
+
+.tienda img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+/* ubicacion */
+
+.section__mapa {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 50px;
+}
+
+.mapa {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+iframe {
+    min-width: 700px;
+    min-height: 700px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+
+/* footer */
+
+.text-center {
+    color: #ffb943;
+}
+
+/* form */
+
+.form {
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+
+}
