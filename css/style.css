@@ -30,6 +30,10 @@ nav div h5 {
 
 /* main */
 
+h1 {
+    font-weight: bold;
+}
+
 main {
     margin-top: 100px;
     gap: 50px;
@@ -55,6 +59,11 @@ main div {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.hero-text {
+    color: black;
+    font-weight: bold;
 }
 
 .container {
@@ -140,6 +149,10 @@ main h1 {
     height: 400px;
 }
 
+section div article p {
+    font-weight: bold;
+}
+
 /* ubicacion */
 
 .section__mapa {
@@ -174,9 +187,83 @@ iframe {
 
 /* form */
 
+h2 {
+    text-align: center;
+    font-weight: bold;
+
+}
+
 .form {
     text-align: center;
     margin: 15px;
     padding: 10px;
 
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ffb943; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+
+textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ffb943; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+
+label{
+    display: block; 
+	float: center; 	
+}
+
+
+form div button { 
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color:#fbfbfb; 
+	border-color: #ffb943; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 3px solid #ffb943;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 3px solid #ffb943;
 }
