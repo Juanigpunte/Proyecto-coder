@@ -1,321 +1,330 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Kanit";
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit";
 }
 
 /* footer */
 .text-center {
-    color: #ffb943;
+  color: #ffb943;
 }
 
 h2 {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 .container {
-    align-items: center;
+  align-items: center;
 }
 
 nav div a img {
-    object-fit: cover;
-    width: 100px;
-    height: 50px;
-    transition: 0.3s;
+  object-fit: cover;
+  width: 100px;
+  height: 50px;
+  transition: 0.3s;
 }
-
 nav div a img:hover {
-    transform: scale(1.08, 1.08);
+  transform: scale(1.08, 1.08);
 }
 
 nav div h5,
 nav div h1 {
-    color: #ffb943;
-    font-size: 1.5rem;
+  color: #ffb943;
+  font-size: 1.5rem;
 }
 
 .bg-custom {
-    background-color: #333333;
+  background-color: #333333;
 }
 
 .nav-link {
-    color: #ffb943;
+  color: #ffb943;
 }
-
 .nav-link:hover {
-    color: #83755c;
+  color: #83755c;
 }
 
 input {
-    background-color: white;
-    width: 408px;
-    height: 40px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ffb943;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    width: 90%;
+  background-color: white;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffb943;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  width: 90%;
 }
 
 textarea {
-    background-color: white;
-    width: 405px;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ffb943;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    padding-top: 15px;
+  background-color: white;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffb943;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
 }
 
 label {
-    width: 90%;
-    display: block;
-    float: center;
+  width: 90%;
+  display: block;
+  float: center;
 }
 
 form div button {
-    width: 90%;
-    height: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    background-color: white;
-    border-color: #ffb943;
-    border-style: solid;
-    border-radius: 10px;
-    cursor: pointer;
+  width: 90%;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: white;
+  border-color: #ffb943;
+  border-style: solid;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 button p {
-    color: white;
+  color: white;
 }
 
 .formulario input:focus {
-    outline: 0;
-    border: 3px solid #ffb943;
+  outline: 0;
+  border: 3px solid #ffb943;
 }
-
 .formulario textarea:focus {
-    outline: 0;
-    border: 3px solid #ffb943;
+  outline: 0;
+  border: 3px solid #ffb943;
 }
 
 .b-example-divider {
-    width: 100%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: solid rgba(0, 0, 0, 0.15);
-    border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 .container {
-    align-items: center;
+  align-items: center;
 }
 
 .form {
-    width: 90%;
-    text-align: center;
-    margin: 15px;
-    padding: 10px;
+  width: 90%;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
 }
 
 main {
-    margin-top: 100px;
-    gap: 50px;
+  margin-top: 100px;
+  gap: 50px;
 }
-
 main div {
-    align-items: center;
+  align-items: center;
 }
-
 main h1 {
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 
 .hero__img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .hero div {
-    padding: 5px;
-    text-align: center;
+  padding: 5px;
+  text-align: center;
 }
-
 .hero div img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-text {
-    color: black;
-    font-weight: bold;
+  text-align: start;
+  color: black;
+  font-weight: bold;
 }
 
 .container {
-    align-items: center;
+  align-items: center;
 }
 
 .btn {
-    transition: 0.3s;
-    background-color: #ffb943;
-    border-color: #222222;
+  transition: 0.3s;
+  background-color: #ffb943;
+  border-color: #222222;
 }
-
 .btn:hover {
-    transform: scale(1.03, 1.03);
-    background-color: #ffb943;
-    color: #222222;
-    border-color: #222222;
+  transform: scale(1.03, 1.03);
+  background-color: #ffb943;
+  color: #222222;
+  border-color: #222222;
 }
 
 .separador {
-    width: 100%;
-    height: 3rem;
-    background-color: #6c757d;
-    border: solid #6c757d;
-    border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 3rem;
+  background-color: #6c757d;
+  border: solid #6c757d;
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 .cards-container {
-    padding: 50px;
-    text-align: left;
+  padding: 50px;
+  text-align: left;
 }
 
 .card-text {
-    width: 250px;
-    height: 150px;
+  width: 250px;
+  height: 150px;
 }
 
 .card {
-    border: 0;
-    align-items: center;
-    transition: 0.5s;
-    border: solid #333333;
+  border: 0;
+  align-items: center;
+  transition: 0.5s;
+  border: solid #333333;
 }
-
 .card:hover {
-    transform: scale(1.1, 1.1);
-    z-index: 1;
+  transform: scale(1.1, 1.1);
+  z-index: 1;
 }
 
 .card-body {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .card-img-top {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .card_img {
-    object-fit: cover;
-    width: 90%;
-    height: 500px;
-    padding: 4px;
-    background-color: #ffb943;
+  object-fit: cover;
+  width: 90%;
+  height: 500px;
+  padding: 4px;
+  background-color: #ffb943;
 }
 
 .img-cover {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .centrar {
-    text-align: center;
+  text-align: center;
 }
 
 .card_img {
-    transition: 0.3s;
+  transition: 0.3s;
+}
+.card_img:hover {
+  transform: scale(1.2, 1.2);
+  z-index: 2;
 }
 
-.card_img:hover {
-    transform: scale(1.2, 1.2);
-    z-index: 2;
+.carousel {
+  width: 100%;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.carousel-item {
+  object-fit: cover;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.centrar p {
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .section__mapa {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 50px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 50px;
 }
 
 .mapa {
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 iframe {
-    min-width: 700px;
-    min-height: 700px;
-    max-width: 100px;
-    max-height: 100px;
+  min-width: 700px;
+  min-height: 700px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .separador {
-    width: 100%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: solid rgba(0, 0, 0, 0.15);
-    border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 main h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .tienda {
-    padding: 20px;
-    gap: 50px;
+  padding: 20px;
+  gap: 50px;
 }
-
 .tienda img {
-    object-fit: cover;
-    width: 90%;
-    height: 400px;
+  object-fit: cover;
+  width: 90%;
+  height: 400px;
 }
-
 .tienda p {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 .tienda article {
-    transition: 0.3s;
+  transition: 0.3s;
 }
-
 .tienda article:hover {
-    transform: scale(1.2, 1.2);
-    z-index: 1;
+  transform: scale(1.2, 1.2);
+  z-index: 1;
 }
 
 .separador {
-    width: 100%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.1019607843);
-    border: solid rgba(0, 0, 0, 0.15);
-    border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1019607843);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 .container {
-    align-items: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
