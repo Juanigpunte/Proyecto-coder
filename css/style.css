@@ -1,49 +1,148 @@
 * {
-    font-family:'Kanit'
-
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit";
 }
 
-/* head */
+/* footer */
+.text-center {
+    color: #ffb943;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    align-items: center;
+}
 
 nav div a img {
     object-fit: cover;
     width: 100px;
     height: 50px;
+    transition: 0.3s;
 }
 
-nav div h5 {
+nav div a img:hover {
+    transform: scale(1.08, 1.08);
+}
+
+nav div h5,
+nav div h1 {
     color: #ffb943;
+    font-size: 1.5rem;
 }
-
 
 .bg-custom {
     background-color: #333333;
 }
 
 .nav-link {
-    color: #ffb943; 
+    color: #ffb943;
 }
 
 .nav-link:hover {
-    color: #83755c; 
+    color: #83755c;
 }
 
-/* main */
+input {
+    background-color: white;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffb943;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}
 
-h1 {
-    font-weight: bold;
+textarea {
+    background-color: white;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffb943;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label {
+    width: 90%;
+    display: block;
+    float: center;
+}
+
+form div button {
+    width: 90%;
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: white;
+    border-color: #ffb943;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button p {
+    color: white;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 3px solid #ffb943;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 3px solid #ffb943;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.container {
+    align-items: center;
+}
+
+.form {
+    width: 90%;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
 }
 
 main {
     margin-top: 100px;
     gap: 50px;
-
 }
 
 main div {
     align-items: center;
 }
 
+main h1 {
+    font-weight: bold;
+    text-align: center;
+}
 
 .hero__img {
     width: 100%;
@@ -71,30 +170,26 @@ main div {
 }
 
 .btn {
+    transition: 0.3s;
     background-color: #ffb943;
     border-color: #222222;
 }
 
 .btn:hover {
+    transform: scale(1.03, 1.03);
     background-color: #ffb943;
     color: #222222;
     border-color: #222222;
 }
 
-.b-example-divider {
+.separador {
     width: 100%;
     height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
+    background-color: #6c757d;
+    border: solid #6c757d;
     border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
-
-.centrar {
-    text-align: center;
-}
-
-/* cards */
 
 .cards-container {
     padding: 50px;
@@ -109,11 +204,17 @@ main div {
 .card {
     border: 0;
     align-items: center;
+    transition: 0.5s;
+    border: solid #333333;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 1;
 }
 
 .card-body {
     padding-left: 0;
-
 }
 
 .card-img-top {
@@ -122,7 +223,7 @@ main div {
 
 .card_img {
     object-fit: cover;
-    width: 400px;
+    width: 90%;
     height: 500px;
     padding: 4px;
     background-color: #ffb943;
@@ -130,30 +231,20 @@ main div {
 
 .img-cover {
     object-fit: cover;
-} 
+}
 
-/* tienda */
-
-main h1 {
+.centrar {
     text-align: center;
 }
 
-.tienda {
-    padding: 20px;
-    gap: 50px;
+.card_img {
+    transition: 0.3s;
 }
 
-.tienda img {
-    object-fit: cover;
-    width: 400px;
-    height: 400px;
+.card_img:hover {
+    transform: scale(1.2, 1.2);
+    z-index: 2;
 }
-
-section div article p {
-    font-weight: bold;
-}
-
-/* ubicacion */
 
 .section__mapa {
     display: block;
@@ -177,93 +268,54 @@ iframe {
     max-height: 100px;
 }
 
-
-
-/* footer */
-
-.text-center {
-    color: #ffb943;
+.separador {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
-/* form */
-
-h2 {
+main h1 {
     text-align: center;
+}
+
+.tienda {
+    padding: 20px;
+    gap: 50px;
+}
+
+.tienda img {
+    object-fit: cover;
+    width: 90%;
+    height: 400px;
+}
+
+.tienda p {
     font-weight: bold;
-
 }
 
-.form {
-    text-align: center;
-    margin: 15px;
-    padding: 10px;
-
+.tienda article {
+    transition: 0.3s;
 }
 
-
-input{
-	background-color: #fbfbfb; 
-	width: 408px; 
-	height: 40px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #ffb943; 
-	margin-top: 10px;  
-	padding-left: 10px;
-    margin-bottom: 20px; 
+.tienda article:hover {
+    transform: scale(1.2, 1.2);
+    z-index: 1;
 }
 
-
-textarea{
-    background-color: #fbfbfb; 
-	width: 405px; 
-	height: 150px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #ffb943; 
-	margin-top: 10px;  
-	padding-left: 10px;
-    margin-bottom: 20px; 
-    padding-top: 15px; 
+.separador {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1019607843);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
-
-label{
-    display: block; 
-	float: center; 	
+.container {
+    align-items: center;
 }
 
-
-form div button { 
-	height: 45px; 
-	padding-left: 5px;
-	padding-right: 5px; 	
-	margin-bottom: 20px; 
-	margin-top: 10px; 	
-	text-transform: uppercase;
-	background-color:#fbfbfb; 
-	border-color: #ffb943; 
-	border-style: solid; 
-	border-radius: 10px;	
-	width: 420px;   
-    cursor: pointer;
-}
-
-
-button p{
-	color: #fff; 
-}
-
-
-.formulario input:focus{
-	outline:0;
-	border: 3px solid #ffb943;
-}
-
-
-.formulario textarea:focus{
-	outline:0;
-	border: 3px solid #ffb943;
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,105 @@
+main {
+    margin-top: 100px;
+    gap: 50px;
+
+    div {
+        align-items: center;
+        }
+    
+    h1 {
+        font-weight: bold;
+        text-align: center;
+        }   
+}
+
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero div {
+    padding: 5px;
+    text-align: center;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        }
+}
+
+.hero-text {
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    align-items: center;
+}
+
+.btn {
+    transition: .3s;
+    background-color: $light-color;
+    border-color: $dark-color;
+
+    &:hover{
+        transform: scale(1.03, 1.03);
+        background-color: $light-color;
+        color: $dark-color;
+        border-color: $dark-color;
+    }
+}
+
+
+.separador {
+    width: 100%;
+    height: 3rem;
+    background-color: $main-color;
+    border: solid $main-color;
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+.cards-container {
+    padding: 50px;
+    text-align: left;
+}
+
+.card-text {
+    width: 250px;
+    height: 150px;
+}
+
+.card {
+    border: 0;
+    align-items: center;
+    transition: 0.5s;
+    border: solid $dark-bg;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+        z-index: 1;
+    }
+}
+
+.card-body {
+    padding-left: 0;
+
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card_img {
+    object-fit: cover;
+    width: 90%;
+    height: 500px;
+    padding: 4px;
+    background-color: $light-color;
+}
+
+.img-cover {
+    object-fit: cover;
+} 

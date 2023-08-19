@@ -1,0 +1,32 @@
+nav div a img {
+    object-fit: cover;
+    width: 100px;
+    height: 50px;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.08, 1.08);
+    }
+}
+
+nav div {
+
+    h5,
+    h1 {
+        color: $light-color;
+        font-size: 1.5rem;
+    }
+
+}
+
+.bg-custom {
+    background-color: $dark-bg;
+}
+
+.nav-link {
+    color: $light-color;
+
+    &:hover {
+        color: $hover-color;
+    }
+}
