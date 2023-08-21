@@ -191,8 +191,11 @@ main h1 {
 }
 
 .card-text {
-  width: 250px;
-  height: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  width: 95%;
+  height: 95%;
 }
 
 .card {
@@ -268,17 +271,12 @@ main h1 {
 }
 
 .mapa {
-  align-self: center;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
 iframe {
-  min-width: 700px;
-  min-height: 700px;
-  max-width: 100px;
-  max-height: 100px;
+  min-height: 500px;
+  min-width: 90%;
 }
 
 .separador {
