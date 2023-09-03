@@ -226,6 +226,8 @@ main h1 {
 }
 
 .card-img-top {
+  min-height: 400px;
+  min-width: 90%;
   max-width: 570px;
   max-height: 90%;
   object-fit: cover;
