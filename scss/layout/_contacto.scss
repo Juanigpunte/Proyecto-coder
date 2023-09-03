@@ -84,9 +84,10 @@ button p {
 	align-items: center;
 }
 
+//extend
+
 .form {
+	@extend .centrar;
 	width: 90%;
-	text-align: center;
 	margin: 15px;
-	padding: 10px;
 }

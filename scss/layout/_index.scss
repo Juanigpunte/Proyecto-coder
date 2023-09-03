@@ -18,8 +18,7 @@ main {
 
 
 .hero__img {
-    width: 100%;
-    height: 100%;
+    @include tamaño(100%, 100%);
 }
 
 .hero div {
@@ -31,6 +30,12 @@ main {
         width: 100%;
         height: 100%;
         }
+}
+
+.text-contenedor {
+    max-height: 500px;
+    overflow-y: auto;
+
 }
 
 .hero-text {
@@ -58,8 +63,7 @@ main {
 
 
 .separador {
-    width: 100%;
-    height: 3rem;
+    @include tamaño(3rem, 100%);
     background-color: $main-color;
     border: solid $main-color;
     border-width: 1px 0;
@@ -67,7 +71,7 @@ main {
 }
 
 .cards-container {
-    padding: 50px;
+    padding: 80px;
     text-align: left;
 }
 
@@ -75,11 +79,11 @@ main {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 10px;
-    width: 95%;
-    height: 95%;
+    @include tamaño(95%, 95%);
 }
 
 .card {
+    max-height: 90%;
     border: 0;
     align-items: center;
     transition: 0.5s;
@@ -97,13 +101,14 @@ main {
 }
 
 .card-img-top {
+    max-width: 570px;
+    max-height: 90%;
     object-fit: cover;
 }
 
 .card_img {
     object-fit: cover;
-    width: 90%;
-    height: 500px;
+    @include tamaño(500px, 90%);
     padding: 4px;
     background-color: $light-color;
 }
