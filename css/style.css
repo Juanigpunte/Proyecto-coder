@@ -287,11 +287,16 @@ main h1 {
   width: 80%;
 }
 .icon-container svg {
+  transition: 0.5s;
   width: 100%;
   margin: 18px;
   padding: 18px;
   height: 150px;
   color: #ffb943;
+}
+.icon-container svg:hover {
+  color: #d68f13;
+  transform: scale(1.1, 1.1);
 }
 
 .section__mapa {

@@ -49,10 +49,16 @@
     }
 
     svg {
+        transition: .5s;
         width: 100%;
         margin: 18px;
         padding: 18px;
         height: 150px;
         color: $light-color;
+
+        &:hover {
+            color: $hover-color;
+            transform: scale(1.1 , 1.1);
+        }
     }
 }
